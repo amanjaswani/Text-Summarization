@@ -13,6 +13,7 @@ We found that there are three common approaches:
 The extractive text summarization technique involves pulling keyphrases from the source
 document and combining them to make a summary. The extraction is made according to the defined
 metric without making any changes to the text. This is implemented using TextRank Algo.
+BERT word embeddings also used for the same (run BERT file on kaggle kernel only).
 
 The abstractive text summarization technique on the other hand first understands the entire
 task and then tries to build summary which may or may not contains words which were present in
